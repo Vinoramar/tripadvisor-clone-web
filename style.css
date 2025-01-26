@@ -1,0 +1,320 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins";
+}
+
+.size{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.header {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-name {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    font-size: 12px;
+}
+
+
+.header-options {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-options p {
+    font-weight: 500;
+    padding: 7px;
+    border: white solid 1px;
+}
+
+.header-options__forums:hover {
+    text-decoration: underline;
+}
+
+.header-options p:hover {
+    background-color: whitesmoke;
+    padding: 7px;
+    border-radius: 50px;
+    border: whitesmoke solid 1px;
+    cursor: pointer;
+}
+
+.header-globe {
+    display: flex;
+    gap: 4px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-name img {
+    width: 50px;
+    height: 50px;
+}
+
+.header-signin {
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.name {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.header-second {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.content img {
+    width: 30px;
+    height: 30px;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
+    display: flex;
+    font-size: 15px;
+    font-weight: 500;
+    align-items: center;
+    gap: 6px;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six:hover {
+    cursor: pointer;
+}
+
+.searchbar {
+    display: flex;
+    padding: 5px;
+    gap: 10px;
+    border: solid 1px black;
+    border-radius: 40px;
+    width: 50%;
+    align-items: center;
+}
+
+.searchbar input {
+    border: none;
+    width: 100%;
+}
+
+.searchbar input:focus {
+    outline: none;
+}
+
+.searchbar button {
+    background-color: #34E0A1;
+    color: black;
+    padding: 10px;
+    width: 80px;
+    border-radius: 40px;
+    border: 1px #34E0A1 solid;
+}
+
+.searchbar button:hover {
+    cursor: pointer;
+    background-color: #84E9BD;
+}
+
+.destination {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.images {
+    display: flex;
+}
+
+.image-order {
+    flex-grow: 1;
+    flex-basis: 20%;
+    padding: 8px;
+    position: relative;
+}
+
+.image-order img {
+    width: 100%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+.image-order h1 {
+    color: white;
+    position: absolute;
+    font-size: 28px;
+    bottom: 0%;
+    left: 10%;
+}
+
+.favorites{
+    margin-top: 30px;
+}
+
+.favort-images{
+    display: flex;
+}
+.favort-order{
+    flex-grow: 1;
+    flex-basis: 10%;
+    padding: 8px;
+}
+
+.favort-order img{
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+}
+.favort-order__author{
+    text-align: center;
+}
+.explore{
+    margin-top: 200px;
+    padding-top:40px;
+    padding-left: 140px;
+    padding-right: 140px;
+    background-color: #F2F1EC;
+}
+
+.explore-images{
+    display: flex;
+}
+.explore-order{
+    flex-grow: 1;
+    flex-basis: 10%;
+    padding: 8px;
+}
+
+.explore-order img{
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+}
+.details{
+    margin-top: 60px;
+    background-color: #F2F2F2;
+    font-size: 15px;
+}
+.tailer{
+    display: flex;
+    justify-content: space-around;
+}
+.tailer p{
+    padding: 3px;
+}
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.options{
+    padding: 10px;
+}
+
+.end{
+    justify-content: end;
+    padding-top: 20px;
+}
+.information{
+    display: flex;
+    justify-content: space-around;
+}
+
+.information img{
+    width: 50px;
+    height: 50px;
+    padding-left: 90px;
+}
+
+.terms{
+    display:flex ;
+    justify-content: space-around;
+
+}
+.terms-details{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.cost{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.rights{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.cost h4{
+    background-color: #FFFFFF;
+    color: black;
+    border: 1px black solid;
+    border-radius: 10px;
+    width: 70px;
+    padding: 5px;
+    text-align: center;
+}
+
+.desc{
+    padding-top: 10px;
+    padding-left:150px;
+}
+    
+
+
+
+
+
+
+@media screen and (max-width:1100px) {
+    .image-order h1 {
+        transition: 2s;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .image-order h1 {
+        transition: 1s;
+        font-size: 11px;
+    }
+
+}
